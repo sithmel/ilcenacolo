@@ -1,0 +1,39 @@
+{
+  "name": "website-gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp",
+    "watch": "gulp watch",
+    "serve": "serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sithmel/website-gen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sithmel/website-gen/issues"
+  },
+  "homepage": "https://github.com/sithmel/website-gen#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^13.3.0",
+    "gulp": "^3.9.1",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-data": "^1.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-streamify": "^1.0.2",
+    "gulp-uglify": "^2.0.0",
+    "node-sass-package-importer": "^3.0.2",
+    "normalize.css": "^5.0.0",
+    "serve": "^2.4.3",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

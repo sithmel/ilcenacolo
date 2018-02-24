@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "title": "default",
+    "description": "",
+    "keywords": ""
+  },
+  "contacts": {
+    "email": "",
+    "facebook_id": "",
+    "twitter_id": "",
+    "phone": ""
+  },
+  "google_analytics": "UA-XXXXX-X",
+  "nav": [
+    {
+      "id": "",
+      "name": "",
+      "url": "",
+      "title": ""
+    }
+  ],
+  "overrides": {
+    "index.html": {
+      "meta": {
+        "title": "override",
+        "description": "",
+        "keywords": ""
+      }
+    }
+  }
+}
